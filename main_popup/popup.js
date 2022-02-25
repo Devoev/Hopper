@@ -1,5 +1,6 @@
-export_button = document.getElementById("export_button")
+
+const export_button = document.getElementById("export_button")
 
 export_button.addEventListener("click", () => {
-    console.log("clicked")
+    console.log("export filters...")
 })
