@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Hopper",
+    "description": "An extension to export and import filters.",
+    "version": "1.0",
+    "author": "Devoev",
+    "applications": {
+        "gecko": {
+            "id": "hopper@yoursite.com",
+            "strict_min_version": "78.0"
+        }
+    },
+    "browser_action": {
+        "default_popup": "main_popup/popup.html",
+        "default_title": "Filter actions",
+        "default_icon": "assets/hopper.png"
+    },
+    "permissions": [
+        "storage",
+        "menus"
+    ],
+    "icons": {
+        "64": "assets/hopper.png"
+    }
+}
